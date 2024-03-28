@@ -1,5 +1,11 @@
 package commands;
 
+import model.Route;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public abstract class Command {
 
     private String title;
@@ -8,6 +14,7 @@ public abstract class Command {
     public String getTitle() {
         return title;
     }
+
 
     public void setTitle(String title) {
         this.title = title;
@@ -20,4 +27,8 @@ public abstract class Command {
     public void setDescription(String description) {
         this.description = description;
     }
+
+
+    public abstract Command execute(ArrayList<Route> collection, Scanner scanner, String fileCollection, String value) throws IOException;
+
 }

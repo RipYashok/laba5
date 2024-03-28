@@ -1,8 +1,9 @@
 package model;
 
 import java.time.LocalDate;
+import java.util.Collection;
 
-public class Route {
+public class Route implements Comparable<Route> {
     private Integer id; //Поле не может быть null, Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
     private String name; //Поле не может быть null, Строка не может быть пустой
     private Coordinates coordinates; //Поле не может быть null
@@ -69,14 +70,11 @@ public class Route {
 
     @Override
     public String toString() {
-        return "Route{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", coordinates=" + coordinates +
-                ", creationDate=" + creationDate +
-                ", from=" + from +
-                ", to=" + to +
-                ", distance=" + distance +
-                '}';
+        return  id + "," + name + "," + coordinates + "," + creationDate + "," + from + "," + to + "," + distance;
+    }
+
+    @Override
+    public int compareTo(Route o) {
+        return Integer.compare(this.id, o.id);
     }
 }
