@@ -24,6 +24,7 @@ public class CreateCommands {
         Shuffle shuffle = new Shuffle();
         Count_less_then_distance countLessThenDistance = new Count_less_then_distance();
         Execute_script executeScript = new Execute_script();
+        Help help = new Help();
         Map<String, Command> commandsList = new HashMap<>();
         commandsList.put(add.getTitle(), add);
         commandsList.put(save.getTitle(), save);
@@ -40,6 +41,7 @@ public class CreateCommands {
         commandsList.put(shuffle.getTitle(), shuffle);
         commandsList.put(countLessThenDistance.getTitle(), countLessThenDistance);
         commandsList.put(executeScript.getTitle(), executeScript);
+        commandsList.put(help.getTitle(), help);
         return commandsList;
     }
 
