@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
+/**
+ * Класс команды вывода информации о коллекции
+ */
 public class Info extends Command{
 
     public Info(){

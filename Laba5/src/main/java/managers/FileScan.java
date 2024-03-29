@@ -8,8 +8,15 @@ import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+/**
+ * Класс с функцией считывания коллекции с CSV файла
+ */
 public class FileScan {
-
+    /**
+     * Функция считывания коллекции с CSV файла {@link FileScan#scan}
+     * @param file
+     * @return
+     */
     public static ArrayList<Route> scan(String file){
         ArrayList<Route> collection = new ArrayList<>();
         try {

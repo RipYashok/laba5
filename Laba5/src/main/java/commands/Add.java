@@ -12,6 +12,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Класс команды добавления нового элемента в коллекцию
+ */
 public class Add extends Command {
 
     public Add() {

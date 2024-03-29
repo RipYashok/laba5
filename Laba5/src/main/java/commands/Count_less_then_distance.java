@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Класс команды, выводящей количество элементов коллекции, дистанция которых меньше заданной
+ */
 public class Count_less_then_distance extends Command{
 
     public Count_less_then_distance(){

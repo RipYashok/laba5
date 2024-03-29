@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Класс команды добавляющей новый элемент в коллекцию, если его значение дистанции меньше наименьшего в коллекции
+ */
 public class Add_if_min_dist extends Command{
     public Add_if_min_dist(){
         setTitle("add_if_min_dist");

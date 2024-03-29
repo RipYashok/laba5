@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
+/**
+ * Класс команды сохранения коллекции в CSV файл
+ */
 public class Save extends Command{
     public Save(){
         setTitle("save");

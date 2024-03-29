@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Класс команды обновления элемента по id коллекции
+ */
 public class Update extends Command{
 
     public Update(){

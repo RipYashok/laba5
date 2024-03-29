@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
+/**
+ * Класс команды перемешивания коллекции
+ */
 public class Shuffle extends Command {
 
     public Shuffle(){

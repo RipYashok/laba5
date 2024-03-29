@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Класс команды удаления элемента коллекции по Id
+ */
 public class Remove_by_id extends Command{
 
     public Remove_by_id(){

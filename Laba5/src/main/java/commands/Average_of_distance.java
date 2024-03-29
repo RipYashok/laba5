@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Класс команды вывода элемента коллекции с минимальным значением поля coordinates
+ */
 public class Average_of_distance extends Command{
     public Average_of_distance(){
         setTitle("average_of_distance");

@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Класс команды очистки коллекции
+ */
 public class Clear extends Command{
 
     public Clear(){

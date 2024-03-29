@@ -10,6 +10,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Класс команды, исполняющей скрипт из файла
+ */
 public class Execute_script extends Command {
 
     public Execute_script() {

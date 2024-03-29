@@ -6,6 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.*;
 
+/**
+ * Класс реализующий управление коллекцией
+ */
 public class CommandManager {
 
     public static void run(ArrayList collection, Scanner scanner, String fileCollection) {

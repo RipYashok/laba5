@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Класс команды удаления последнего элемента коллекции
+ */
 public class Remove_last extends Command{
     public Remove_last(){
         setTitle("remove_last");

@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
+/**
+ * Класс команды вывода списка элементов коллекции
+ */
 public class Show extends Command {
     public Show(){
         setTitle("show");

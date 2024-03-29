@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Класс команды вывода любого элемента коллекции, дистанция которого меньше заданного значения
+ */
 public class Min_by_coordinates extends Command{
     public Min_by_coordinates(){
         setTitle("min_by_coordinates");

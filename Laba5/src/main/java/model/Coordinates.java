@@ -1,7 +1,16 @@
 package model;
 
+/**
+ * Класс координат маршрута с полями <b>x</b> и <b>y</b>
+ */
 public class Coordinates {
+    /**
+     * Поле координаты x
+     */
     private float x; //Значение поля должно быть больше -580
+    /**
+     * Поле координаты y
+     */
     private long y; //Значение поля должно быть больше -339
 
     public float getX() {

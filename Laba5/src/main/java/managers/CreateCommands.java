@@ -6,8 +6,14 @@ import commands.*;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Класс с функцией создания коллекции команд
+ */
 public class CreateCommands {
-
+    /**
+     * Функция создания коллекции команд {@link CreateCommands#commands}
+     * @return возвращает коллекцию команд
+     */
     public static Map commands(){
         Add add = new Add();
         Save save = new Save();

@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Родительский класс всех команд
+ */
 public abstract class Command {
 
     private String title;
